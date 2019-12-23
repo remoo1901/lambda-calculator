@@ -28,10 +28,11 @@ function App() {
        
          
          <span>
-         
+         <div>
          <Specials />
          <Numbers />
          <Operators />
+         </div>
          </span>
       </div>
       <div>

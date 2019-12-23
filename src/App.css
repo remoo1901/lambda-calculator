@@ -25,20 +25,21 @@
     
   }
  
-  span  {
-    background-color: yellow;
-    display:flex;
-    flex-direction: row;
-    width: 100%;
-    max-width: 550px;
-    max-height: 300px;
-    margin-top: 20px;
+  
 
-  }
+span div {
+    display:flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    max-width: 550px;
+    max-height: 450px;
+    
+}
+
 
  
   .numberButtons {
-      
+  
   background-color: rgb(25, 134, 206);
   font-size: 1.5rem;
   color: white;
