@@ -28,9 +28,13 @@ function App() {
     
          <span>
          <div>
+         <p className="toto">
          <Specials />
          <Numbers />
+         </p>
+         <div className="lolo">
          <Operators />
+         </div>
          </div>
          </span>
       </div>
