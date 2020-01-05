@@ -15,7 +15,7 @@ const Numbers = () => {
   return (
     <>
         {nums.map((num, idx) => {
-            return <NumberButton key={idx} num={num}/>
+            return <NumberButton   key={idx} num={num}/>
         })}
       
     </>
